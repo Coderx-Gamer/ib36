@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "ib36",
+	"version": "${version}",
+	"name": "IB36",
+	"description": "Lets you stand on and interact with block 36 (moving piston).",
+	"authors": [
+		"Coderx_Gamer"
+	],
+	"contact": {
+		"homepage": "https://github.com/Coderx-Gamer/ib36",
+		"sources": "https://github.com/Coderx-Gamer/ib36"
+	},
+	"license": "NONE",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"net.ib36.MainClient"
+		]
+	},
+	"mixins": [
+		"ib36.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
