@@ -5,7 +5,7 @@ Lets you stand on and interact with block 36 (moving piston).
 
 To build this mod on Windows, run `gradlew build` in a command prompt in the project directory.\
 \
-To build this mod on Mac or Linux, run `./gradlew build` in a terminal in the project directory.\
+To build this mod on Linux, run `chmod +x gradlew`, then run `./gradlew build` in a terminal in the project directory.\
 \
 The mod will be built at `build/libs/ib36-x.x.x.jar` regardless of operating system.
 
